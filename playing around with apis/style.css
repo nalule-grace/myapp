@@ -8,7 +8,7 @@ body, #quote, #author {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    padding: 200px;
+    padding: 150px;
     width: 80%;
     border: 1px solid grey;
     border-radius: 20px;
@@ -27,6 +27,23 @@ body, #quote, #author {
     font-size: 45px;
     color: blue;
 }
-img{
+
+.button {
     
-}
+    margin: auto;
+    padding:20px;
+    border: 2px solid #1e1097;
+    border-radius: 12px;
+    font-size: 50px;
+    color:rgb(62, 124, 158);
+    text-decoration: var(--button-text-decoration);
+    cursor: pointer;
+    text-align: center;
+    
+    transition-duration:0.4s ;
+  }
+  
+  .button:hover {
+    background-color: rgb(9, 2, 61);
+    color: white;
+  }
